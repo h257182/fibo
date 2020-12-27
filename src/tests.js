@@ -25,6 +25,10 @@ const test = async () => {
   console.log(fibonacciMemo(n));
   console.timeEnd('memo');
 
+  console.time('memo2');
+  console.log(fibonacciMemo(n));
+  console.timeEnd('memo2');
+
   console.log(`\n======================\n`);
   n = 40;
   console.log(`N = ${n}`);
@@ -43,6 +47,10 @@ const test = async () => {
   console.time('memo');
   console.log(fibonacciMemo(n));
   console.timeEnd('memo');
+
+  console.time('memo2');
+  console.log(fibonacciMemo(n));
+  console.timeEnd('memo2');
 };
 
 test();

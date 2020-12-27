@@ -1,3 +1,4 @@
 .eslintrc
 package-lock.json
 node_modules
+bench.txt

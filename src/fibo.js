@@ -28,7 +28,7 @@ const fibonacciLoop = (num) => {
 const fibonacciRecusrivo = (num) => {
   if (num <= 1) return 1;
 
-  // F(n) = F(n-1) + F(n-2) com F(0) = 0 e F(1) = 1
+  // F(n) = F(n-1) + F(n-2)
   return fibonacciRecusrivo(num - 1) + fibonacciRecusrivo(num - 2);
 };
 
